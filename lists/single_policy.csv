@@ -1,0 +1,2 @@
+ID,Category,Name,AssessmentStatus,Method,MethodOption,GetCommand,SetCommand,User,RegistryPath,RegistryItem,DefaultValue,RecommendedValue,TypeValue,Operator,Severity,Level
+3800,User Preferences,Advertisements : Limit Ad tracking and personalized Ads,Automatically,Registry,,,,,~/Library/Preferences/com.apple.AdLib,allowApplePersonalizedAdvertising,,false,bool,=,Medium,
