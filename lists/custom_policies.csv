@@ -1,0 +1,9 @@
+ID,Category,Name,AssessmentStatus,Method,MethodOption,GetCommand,SetCommand,User,RegistryPath,RegistryItem,DefaultValue,RecommendedValue,TypeValue,Operator,Severity,Level
+1100,Updates,AppStore : Automatically keep apps up to date from app store,Automatically,Registry,,,,,/Library/Preferences/com.apple.commerce,AutoUpdate,false,true,bool,=,Medium,1
+2000,Login/Logout,Sleep : AC display sleep timer,Automatically,PlistBuddy,-c,,,,/Library/Preferences/com.apple.PowerManagement.plist,'AC Power':'Display Sleep Timer',10,5,,=,Medium,ND
+2001,Login/Logout,Sleep : Battery display sleep timer,Automatically,PlistBuddy,-c,,,,/Library/Preferences/com.apple.PowerManagement.plist,'Battery Power':'Display Sleep Timer',2,2,,=,Medium,ND
+3800,User Preferences,Advertisements : Limit Ad tracking and personalized Ads,Automatically,Registry,,,,,~/Library/Preferences/com.apple.AdLib,allowApplePersonalizedAdvertising,,false,bool,=,Medium,
+2103:2,Login/Logout,Screen Saver : Secure screen saver corners (bottom-left),Automatically,Registry,,,,username,com.apple.dock,wvous-bl-corner,13,11,int,=,Medium,2
+4200,Protections,Secure Keyboard Entry : Enable Secure Keyboard Entry in terminal.app,Automatically,Registry,,,,username,-app Terminal,SecureKeyboardEntry,0,1,bool,=,Medium,1
+2600,Login/Logout,Console : Disable console logon from the logon screen,Automatically,Registry,,,,/Library/Preferences/com.apple.loginwindow,DisableConsoleAccess,0,1,bool,=,Medium,1
+6002,Network,Firewall : Enable Stealth Mode,Automatically,Registry,,,,/Library/Preferences/com.apple.alf,stealthenabled,0,1,bool,=,Medium,1
